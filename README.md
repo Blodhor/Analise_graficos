@@ -36,3 +36,14 @@ Para gerar o Ex1.jpeg basta manter os arquivos metodos_SF.py e plot_simples.py n
 ou no windows
 --
     $ python.exe .\plot_simples.py RadGyr.dat Exemplo_1
+------------
+
+Para gerar o Ex2_linha.jpeg (editar para L=0) e o Ex2_ponto.jpeg (editar para L=1) basta manter os arquivos metodos_SF.py e plot_simples.py na mesma pasta e executar no terminal:
+--
+    $ python3 plot_simples2.py modelos.pdb Exemplo_2
+ou no windows
+--
+    $ python.exe .\plot_simples2.py modelos.pdb Exemplo_2
+
+Fique a vontade para programar a mudança de gráfico em ponto ou linha baseado num argumento extra!
+------------
