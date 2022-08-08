@@ -121,40 +121,7 @@ def partition(t=[(0,'1'),(-6,'2')], begin= 0, end = 1):
 			rpos += 1
 			swap(t,rpos,i)
 	swap(t,rpos+1,end) 
-	''' 
-	Ex:
-	lista = 8 2 3 7 4 6
-	pivot = 6
-	r     = -1
-
-	it 0:
-		8 < 6 = False
-		8 2 3 7 4 6
-	it 1:
-		2<6 = True
-		r = 0
-		swap(0,1)
-		2 8 3 7 4 6
-	it 2:
-		3<6= True
-		r=1
-		swap(1,2)
-		2 3 8 7 4 6
-	it 3:
-		7<6=False
-		2 3 8 7 4 6
-	it 4:
-		4<6= True
-		r=2
-		swap(2,4)
-		2 3 4 7 8 6
-	it 5:
-		6<6 =False
-		loop end
-		swap(r+1=3,5)
-		2 3 4 6 8 7
-		retorna posicao do pivot
-	'''
+	
 	return 	rpos+1
 
 def SortZerothTupple(t=[(0,'1'),(-6,'2')], begin= 0, end = 1):
@@ -233,7 +200,7 @@ pointsize=4,Xg=[],Yg=[],g_color='royalblue',Xw=[],Yw=[],
 w_color='deepskyblue',Xg_ins=[],Yg_ins=[],mark_color='black',
 titulo ="",eixoy="Vina score (kcal/mol)",eixox="$r_{hc}\,(\AA)$"):
 
-	# outras cores:: 'mediumseagreen', 'deepskyblue'
+	# outras cores bacanas:: 'mediumseagreen', 'deepskyblue'
 	fig, ax1 = plt.subplots(dpi=dpi)
 	ax1.plot(Xg,Yg,'o',color=g_color,ms=pointsize)
 	ax1.plot(Xw,Yw,'o',color=w_color,ms=pointsize)
