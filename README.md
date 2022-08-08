@@ -5,7 +5,7 @@ Sobre o compilador Python 3.6+ necessário para execução dos programas:
 
 No Windows é possível executar o python direto no powershell ou com auxílio de programas como o Visual Studio Code (https://code.visualstudio.com/docs/setup/windows).
 
-No sistemas Linux é mais fácil de usar o python, pois nas versões mais recentes de Ubuntu o compilador de python já vem pré instalado no sistema operacional e podemos checar sua versão com o comando:
+Nos sistemas Linux é mais fácil de usar o python, pois nas versões mais recentes de Ubuntu o compilador de python já vem pré instalado no sistema operacional e podemos checar sua versão com o comando:
 ---
 
 $ python --version
