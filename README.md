@@ -1,4 +1,4 @@
-# Semana-da-Fisica
+# Guia para análise de dados com uso de gráficos no Python 
 
 Sobre o compilador Python 3.6+ necessário para execução dos programas:
 ----
