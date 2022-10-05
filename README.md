@@ -45,5 +45,5 @@ ou no windows
 --
     $ python.exe .\plot_simples2.py modelos.pdb Exemplo_2
 
-Fique a vontade para programar a mudança de gráfico em ponto ou linha baseado num argumento extra!
+Fique a vontade para programar mudanças no estilo de gráfico. Sugestão: use também o plot 3D.
 ------------
